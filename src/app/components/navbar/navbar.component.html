@@ -1,0 +1,17 @@
+<section class="navbar-container">
+    <nav class="navbar">
+        <img id="logo" src="/assets/navbar/logo-light.svg" alt="Logo" class="logo">
+        <ul>
+            <li><a routerLink="/about" class="nav-link">About us</a></li>
+            <li><a routerLink="/product" class="nav-link">Product</a></li>
+            <li><a routerLink="/resource" class="nav-link">Resource</a></li>
+            <li><a routerLink="/Contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="theme-switcher" (click)="toggleTheme()">
+            <img src="/assets/navbar/Moon_fill.svg" alt="Dark Theme" class="theme-icon moon">
+            <img src="/assets/navbar/Sun_fill.svg" alt="Light Theme" class="theme-icon sun">
+            <span class="switcher-ball"></span>
+        </div>
+    </nav>
+</section>

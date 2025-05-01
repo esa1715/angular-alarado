@@ -1,0 +1,57 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navbar ul li {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.theme-switcher {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border: 1px solid #223344;
+}
+
+.theme-icon {
+  width: 20px;
+  height: 20px; 
+  transition: fill 0.3s ease-in-out;
+}
+
+.switcher-ball {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #223344;
+  background-color: #223344;
+}
+

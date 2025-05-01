@@ -1,0 +1,68 @@
+@import 'variables.scss';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: none;
+}
+
+.light-theme {
+  background-color: $bg-color-light;
+  color: $color-light;
+}
+
+.dark-theme {
+  background-color: $bg-color-dark;
+  color: $color-dark;
+}
+
+.light-theme .navbar li:hover {
+  color: #2A4DD0;
+  border-bottom: 3px solid #2A4DD0;
+}
+
+.dark-theme .navbar li:hover {
+  color: #F2F9FE;
+  border-bottom: 3px solid #F2F9FE;
+}
+
+
+.light-theme .hero-btns button {
+  color: #2A4DD0;
+  border: 1px solid #2A4DD0;
+}
+
+.dark-theme .hero-btns button {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.dark-theme .hero-btns button:hover {
+  border: none;
+}
+
+.light-theme .theme-switcher {
+  background-color: transparent;
+}
+
+.dark-theme .theme-switcher {
+  background-color: $bg-color-light;
+}
+
+.light-theme .switcher-ball {
+  left: 31px;
+}
+
+.dark-theme .switcher-ball {
+  left: 3px;
+}

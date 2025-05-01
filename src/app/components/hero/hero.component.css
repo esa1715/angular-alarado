@@ -1,0 +1,66 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 2rem;
+}
+
+.hero-content span {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.hero-content h1 {
+  font-size: 3.75rem;
+  font-weight: 800;
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-btns button {
+  padding: 1.5rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.hero-btns button:hover {
+  background-color: #2A4DD0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.check span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}/*# sourceMappingURL=hero.component.css.map */
